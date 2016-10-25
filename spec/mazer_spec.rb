@@ -1,4 +1,6 @@
-require_relative 'mazer'
+require 'spec_helper'
+require 'mazer'
+#when spec helper changes paths like currently, 'require_relative 'mazer'' raises error
 
 describe Mazer do
 
